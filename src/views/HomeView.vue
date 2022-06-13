@@ -70,7 +70,6 @@ export default {
       this.getPokemons(data);
     },
     selectPage(val) {
-      console.log("home da on slel", val);
       this.page = val;
       this.getAllUsers();
     },
